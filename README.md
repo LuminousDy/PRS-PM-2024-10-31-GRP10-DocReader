@@ -69,7 +69,7 @@ Ensure you have **Poppler** installed for PDF processing and **Tesseract** for O
 To run the project, follow these steps:
 
 1. **Launch the Frontend Interface**:<br>
-streamlit run homepage.py
+streamlit run homepage.py<br>
 This command will start the Streamlit application for the frontend interface, allowing interaction with the document processing pipeline.
 
 2. **Access the Web Interface**:<br>
