@@ -55,11 +55,11 @@ Based on the provided structure, the main directories and their purposes are:
 
 To set up the DocReader project, follow these steps:
 
-1. **Clone the repository**:
+1. **Clone the repository**:<br>
 git clone https://github.com/LuminousDy/PRS-PM-2024-10-31-GRP10-DocReader.git
-2. **Navigate to the project directory**:
+2. **Navigate to the project directory**:<br>
 cd PRS-PM-2024-10-31-GRP10-DocReader
-3. **Install dependencies**:
+3. **Install dependencies**:<br>
 pip install -r requirements.txt # For Python dependencies
 
 Ensure you have **Poppler** installed for PDF processing and **Tesseract** for OCR functionalities, as the paths to `poppler-24.08.0` and `tesseract` directories indicate these dependencies are crucial for document processing.
@@ -68,11 +68,11 @@ Ensure you have **Poppler** installed for PDF processing and **Tesseract** for O
 
 To run the project, follow these steps:
 
-1. **Launch the Frontend Interface**:
+1. **Launch the Frontend Interface**:<br>
 streamlit run homepage.py
 This command will start the Streamlit application for the frontend interface, allowing interaction with the document processing pipeline.
 
-2. **Access the Web Interface**:
+2. **Access the Web Interface**:<br>
 - Open a web browser and navigate to the displayed Streamlit URL (typically `http://localhost:8501`) to upload documents, initiate processing, and view results.
 
 ### Execution Workflow:
